@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sis"
+version = "1.0.0"
+description = "Pomoćni modul za grafiku i primjere uz knjigu Deterministički signali"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy", "matplotlib"]
+authors = [
+    { name = "Emir Sokić" },
+    { name = "Melita Ahić-Đokić" },
+]
+
+[tool.setuptools]
+py-modules = ["sis"]
